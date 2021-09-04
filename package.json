@@ -1,0 +1,24 @@
+{
+  "name": "adofai-moktak",
+  "version": "1.0.0",
+  "description": "ADOFAI moktak converter.",
+  "main": "cli.js",
+  "scripts": {
+    "start": "node cli.js",
+    "test": "node cli.js",
+    "build": "npx pkg cli.js && rm adofai-moktak.exe && ren cli-win.exe adofai-moktak.exe"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wjdgustn/adofai-moktak.git"
+  },
+  "author": "HYONSU",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/wjdgustn/adofai-moktak/issues"
+  },
+  "homepage": "https://github.com/wjdgustn/adofai-moktak#readme",
+  "devDependencies": {
+    "pkg": "^5.3.1"
+  }
+}
