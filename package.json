@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node cli.js",
     "test": "node cli.js",
-    "build": "npx pkg cli.js && rm adofai-moktak.exe && ren cli-win.exe adofai-moktak.exe"
+    "build": "npx pkg cli.js"
   },
   "repository": {
     "type": "git",

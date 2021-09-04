@@ -52,7 +52,7 @@ rl.on('line', line => {
 
     let pathData;
     if(!adofai.pathData) pathData = utils.angleToPath(adofai.angleData);
-    else pathdata = adofai.pathData;
+    else pathData = adofai.pathData;
 
     adofai.actions = adofai.actions.filter(a => a.eventType != 'SetHitsound');
     adofai.settings.hitsound = 'Squareshot';
@@ -105,7 +105,6 @@ rl.on('line', line => {
                     if (adofai.actions[sel].floor == i) {
                         switch (adofai.actions[sel].eventType) {
                             case 'Twirl':
-                                console.log(`twirl at ${i}`);
                                 twirl = !twirl;
                                 break;
                         }
